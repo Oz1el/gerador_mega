@@ -13,7 +13,7 @@ def generate_numbers(name, birthdate):
 
 st.set_page_config(initial_sidebar_state="collapsed")
 
-st.title("Bem-vindo ao Gerador de Números para a Mega-Sena")
+st.title("Bem-vindo ao Gerador de Números para a Mega")
 st.write("Por favor, insira seu nome e data de nascimento no formato dd/mm/yyyy para gerar uma sequência de 6 números.")
 
 name = st.text_input("Nome")
